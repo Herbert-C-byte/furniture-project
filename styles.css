@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F1F1;
+    color: #333333;
+}
+header {
+    background-color: #6C5B7B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0;
+    background-color: #422e54;
+    padding: 20px;
+    border-radius: 30px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: darkorange;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #C06C84;
+    color: white;
+    margin: 1.3em 0.5em;
+    border-radius: 20px;
+}
+
+.hero-button {
+    padding: 10px 20px; 
+    background-color: #F67280; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px;
+}
+
+.hero-button:hover {
+    background-color: #6C5B7B;
+    box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2); /* a little shadow for the button */
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* add gap to provide spacing between categories */
+    padding: 20px;
+    flex-wrap: wrap; /* Allow categories to wrap on smaller screens */
+}
+.category {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 23%; /* Adjust width for larger screens */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.category img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth effect */
+}
+.category img:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05); /*slight zoom*/
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6C5B7B;
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .category {
+        width: 48%; /* 2 items per row on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: #6C5B7B;
+    }
+    .categories {
+        flex-direction: column; /* Stack categories vertically on small screens */
+        align-items: center; /* Center align items */
+    }
+    .category {
+        width: 90%; /* Make categories wider on small screens */
+        margin-bottom: 20px; /* Add spacing between stacked categories */
+    }
+}

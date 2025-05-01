@@ -1,0 +1,30 @@
+1. Planning & Design
+ ✅ Define Niche and Target Audience: Clear focus on furniture (e.g., living room, bedroom, kitchen, and office).
+ ✅ Create a Wireframe/Mockup: Implicitly achieved through the layout.
+ ✅ Color Scheme & Branding: Nice use of consistent colors and font choices.
+
+2. Structure with HTML
+ ✅ Homepage: Clear homepage with navigation and hero section.
+ ✅ Product Categories Section: Categories for furniture are listed.
+ ⬜ Product Page: Missing individual product pages with more detailed information.
+ ⬜ Cart Page: A cart feature to display selected items is absent.
+ ⬜ Contact Page: Missing a dedicated contact form.
+ ✅ Navigation Bar: Present with links (although not functional yet).
+
+3. Styling with CSS
+ ✅ Responsive Design: Media queries are in place, making the design mobile-friendly.
+ ✅ Hover Effects: Added hover effects for navigation links and buttons.
+ ✅ Navigation Bar: Styled with a clean, professional look.
+ ✅ Product Grid Layout: Categories are styled in a grid layout with flexible responsiveness.
+ ✅ Animations: Subtle hover animations on the "Shop Now" button.
+
+4. Functionality with JavaScript
+ ⬜ Interactive Cart: No JavaScript functionality for adding/removing items yet.
+ ⬜ Product Filter/Search: Missing a filter or search functionality.
+ ⬜ Form Validation: No forms are implemented yet.
+ ⬜ Quantity Selector: No functionality for adjusting item quantities.
+ ⬜ Image Slider/Carousel: Missing any carousel/slider for featured products or banners.
+
+5. Backend Integration
+ Not started yet.
+ 
